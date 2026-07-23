@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install --save-dev typescript @types/react @types/react-dom @types/node)",
+      "Bash(npm install tailwindcss postcss autoprefixer framer-motion react-icons)",
+      "Bash(npm install --legacy-peer-deps tailwindcss postcss autoprefixer framer-motion react-icons)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(node_modules/.bin/tailwindcss init -p)",
+      "Bash(npm install --legacy-peer-deps @tailwindcss/postcss)",
+      "Bash(npm install --legacy-peer-deps tailwindcss@3 postcss autoprefixer)",
+      "Bash(node -e \"const tw = require\\(''tailwindcss/package.json''\\); console.log\\(tw.version\\)\")",
+      "Bash(npm cache clean --force)"
+    ]
+  }
+}
